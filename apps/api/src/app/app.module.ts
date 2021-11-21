@@ -1,11 +1,9 @@
 import { Module } from '@nestjs/common';
-
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { ApiCoreConfigModule } from '@nx-angular-nest/api/core/config';
 
 @Module({
-  imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  imports: [
+    ApiCoreConfigModule,
+  ],
 })
 export class AppModule {}

@@ -1,0 +1,7 @@
+{
+  "name": "mobile/apps/register",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

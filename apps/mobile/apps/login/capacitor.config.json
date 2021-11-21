@@ -1,0 +1,13 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "mobile/apps/login",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "../../../../dist/apps/mobile/apps/login",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

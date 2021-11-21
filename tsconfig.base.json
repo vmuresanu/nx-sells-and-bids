@@ -15,7 +15,68 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-angular-nest/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@nx-angular-nest/api/auth/data-access": [
+        "libs/api/auth/data-access/src/index.ts"
+      ],
+      "@nx-angular-nest/api/auth/feature": [
+        "libs/api/auth/feature/src/index.ts"
+      ],
+      "@nx-angular-nest/api/auth/utils": ["libs/api/auth/utils/src/index.ts"],
+      "@nx-angular-nest/api/core/config": ["libs/api/core/config/src/index.ts"],
+      "@nx-angular-nest/api/permissions/data-access": [
+        "libs/api/permissions/data-access/src/index.ts"
+      ],
+      "@nx-angular-nest/api/permissions/feature": [
+        "libs/api/permissions/feature/src/index.ts"
+      ],
+      "@nx-angular-nest/api/roles/data-access": [
+        "libs/api/roles/data-access/src/index.ts"
+      ],
+      "@nx-angular-nest/api/roles/feature": [
+        "libs/api/roles/feature/src/index.ts"
+      ],
+      "@nx-angular-nest/api/shared/data-access": [
+        "libs/api/shared/data-access/src/index.ts"
+      ],
+      "@nx-angular-nest/api/shared/feature": [
+        "libs/api/shared/feature/src/index.ts"
+      ],
+      "@nx-angular-nest/api/shared/utils": [
+        "libs/api/shared/utils/src/index.ts"
+      ],
+      "@nx-angular-nest/api/user/data-access": [
+        "libs/api/user/data-access/src/index.ts"
+      ],
+      "@nx-angular-nest/api/user/feature": [
+        "libs/api/user/feature/src/index.ts"
+      ],
+      "@nx-angular-nest/mobile/feature-login": [
+        "libs/mobile/feature-login/src/index.ts"
+      ],
+      "@nx-angular-nest/mobile/feature-register": [
+        "libs/mobile/feature-register/src/index.ts"
+      ],
+      "@nx-angular-nest/shared/data-access-auth": [
+        "libs/shared/data-access-auth/src/index.ts"
+      ],
+      "@nx-angular-nest/shared/mobile/ui-ionic": [
+        "libs/shared/mobile/ui-ionic/src/index.ts"
+      ],
+      "@nx-angular-nest/shared/ui-material": [
+        "libs/shared/ui-material/src/index.ts"
+      ],
+      "@nx-angular-nest/shared/utils-interfaces": [
+        "libs/shared/utils-interfaces/src/index.ts"
+      ],
+      "@nx-angular-nest/shared/utils-validators": [
+        "libs/shared/utils-validators/src/index.ts"
+      ],
+      "@nx-angular-nest/web/feature-login": [
+        "libs/web/feature-login/src/index.ts"
+      ],
+      "@nx-angular-nest/web/feature-register": [
+        "libs/web/feature-register/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

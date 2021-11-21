@@ -1,0 +1,13 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "mobile/apps/register",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "../../../../dist/apps/mobile/apps/register",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

@@ -12,9 +12,10 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "ZmY1YzAwOTYtZWY3Ny00YjM2LWIyZDktYzczM2Q0MDBmNjkwfHJlYWQtd3JpdGU="
       }
     }
   },
@@ -30,15 +31,120 @@
     "api": {
       "tags": []
     },
-    "api-interfaces": {
+    "api-auth-data-access": {
       "tags": []
     },
-    "project": {
+    "api-auth-feature": {
       "tags": []
     },
-    "project-e2e": {
+    "api-auth-utils": {
+      "tags": []
+    },
+    "api-core-config": {
+      "tags": []
+    },
+    "api-permissions-data-access": {
+      "tags": []
+    },
+    "api-permissions-feature": {
+      "tags": []
+    },
+    "api-roles-data-access": {
+      "tags": []
+    },
+    "api-roles-feature": {
+      "tags": []
+    },
+    "api-shared-data-access": {
+      "tags": []
+    },
+    "api-shared-feature": {
+      "tags": []
+    },
+    "api-shared-utils": {
+      "tags": []
+    },
+    "api-user-data-access": {
+      "tags": []
+    },
+    "api-user-feature": {
+      "tags": []
+    },
+    "mobile": {
+      "tags": []
+    },
+    "mobile-apps-login": {
+      "tags": []
+    },
+    "mobile-apps-login-e2e": {
       "tags": [],
-      "implicitDependencies": ["project"]
+      "implicitDependencies": ["mobile-apps-login"]
+    },
+    "mobile-apps-register": {
+      "tags": []
+    },
+    "mobile-apps-register-e2e": {
+      "tags": [],
+      "implicitDependencies": ["mobile-apps-register"]
+    },
+    "mobile-e2e": {
+      "tags": [],
+      "implicitDependencies": ["mobile"]
+    },
+    "mobile-feature-login": {
+      "tags": []
+    },
+    "mobile-feature-register": {
+      "tags": []
+    },
+    "shared-data-access-auth": {
+      "tags": []
+    },
+    "shared-mobile-ui-ionic": {
+      "tags": []
+    },
+    "shared-ui-material": {
+      "tags": []
+    },
+    "shared-utils-interfaces": {
+      "tags": []
+    },
+    "shared-utils-validators": {
+      "tags": []
+    },
+    "web": {
+      "tags": []
+    },
+    "web-apps-login": {
+      "tags": []
+    },
+    "web-apps-login-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web-apps-login"]
+    },
+    "web-apps-register": {
+      "tags": []
+    },
+    "web-apps-register-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web-apps-register"]
+    },
+    "web-authentication-login": {
+      "tags": []
+    },
+    "web-authentication-login-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web-authentication-login"]
+    },
+    "web-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web"]
+    },
+    "web-feature-login": {
+      "tags": []
+    },
+    "web-feature-register": {
+      "tags": []
     }
   }
 }

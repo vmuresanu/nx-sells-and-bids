@@ -10,6 +10,18 @@ This project was generated using [Nx](https://nx.dev).
 
 ## Quick Start & Documentation
 
+Add Angular app - `nx g @nrwl/angular:app app-name`
+
+Add Angular lib - `nx g @nrwl/angular:lib lib-name`
+
+Add Nest app - `nx g @nrwl/nest:app app-name`
+
+Add Nest lib - `nx g @nrwl/nest:lib <nest-lib> [--controller] [--service] [--global]`
+
+Add Ionic App - `nx g @nxtend/ionic-angular:application myApp`
+
+Remove any library / app - `nx g @nrwl/workspace:remove lib-name`
+
 [Nx Documentation](https://nx.dev/angular)
 
 [10-minute video showing all Nx features](https://nx.dev/getting-started/intro)
